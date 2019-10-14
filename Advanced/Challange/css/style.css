@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300i&display=swap');
+
+*{
+	outline: none !important;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	position: relative;
+	z-index: 100000000;
+}
+p{
+	font-size: 1.15rem;
+}
+
+.navbar{
+	transition: 0.5s;
+}
+
+.navbar.scrolled{
+	background: #000 !important;
+	transition: 0.5s;
+}
+
+.banner{
+	
+}
